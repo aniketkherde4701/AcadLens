@@ -28,7 +28,7 @@ for _noisy in ("httpx", "arxiv", "google_genai", "urllib3"):
     logging.getLogger(_noisy).setLevel(logging.WARNING)
 
 st.set_page_config(
-    page_title="Research Co-Pilot",
+    page_title="AcadLens",
     page_icon=":material/auto_stories:",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -259,9 +259,9 @@ def render_topbar() -> None:
         """
         <div class="rc-topbar">
           <div class="rc-brand">
-            <div class="rc-logo">R</div>
+            <div class="rc-logo">A</div>
             <div>
-              <div class="rc-title">Academic Research Co-Pilot</div>
+              <div class="rc-title">AcadLens</div>
               <div class="rc-sub">Ask a question &middot; the agent finds, reads and cites one arXiv paper</div>
             </div>
           </div>
